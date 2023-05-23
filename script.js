@@ -31,25 +31,3 @@ function colors() {
 
 }
 colors();
-var size = [
-  {id: 1, name: 'Red-shirt', price: 10},
-  {id: 2, name: 'Tan-shirt', price: 10},
-  {id: 3, name: 'white-shirt', price: 10},
-  {id: 4, name: 'black-shirt', price: 10},
-]
-
-function populateColorSelect(){
-  var select = document.getElementById('color-select');
-  select.innerHTML = '';
-  for (var i = 1; i < color.length; i++) {
-    option = document.createElement("option");
-    option.value = size[i].id;
-    option.innerHTML = size[i].name;
-    dropbox.append(option);
-  }
-}
-
-function addToCart(){
-var select = document.getAnimations('size-select');
-
-}

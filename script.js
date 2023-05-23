@@ -12,7 +12,7 @@ function shirts() {
   for (var i = 1; i < size.length; i++) {
     option = document.createElement("option");
     option.innerHTML = (size[i]);
-    dropbox.append(option);
+    dropbox.appendChild(option);
   }
 }
 shirts();
@@ -27,7 +27,7 @@ function colors() {
   for (var i = 1; i < color.length; i++) {
     option = document.createElement("option");
     option.innerHTML = (color[i]);
-    dropbox.append(option);
+    dropbox.appendChild(option);
   }
 }
 
@@ -42,7 +42,7 @@ const selectedProductId = selectElement.value;
 };
 
 function updateCart(){
-  const cartItemsElement = document.getElementById("cart-items");
+  const cartItemsElement = document.getElementById("colors");
   const cartTotalElement = document.getElementById("cart-total");
 
   cartItemsElement.innerHTML = "";

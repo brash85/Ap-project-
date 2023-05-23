@@ -9,7 +9,7 @@ h1{
   color: rgb(17, 17, 17);                    
 }
 body{
-background-color: rgb(236, 95, 95);
+background-color: rgb(255, 255, 255);
 
 }
 
@@ -18,28 +18,7 @@ section {
   
 
 }
-#add-items {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 20px;
 
-} 
-#add-items {
-  flex-direction: column;
-  align-items: center;
-}
-#remove-items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  
-  } 
-  #remove-items {
-    flex-direction: column;
-    align-items: center;
-  }
   #images{
     display: flex;
     align-items: center;

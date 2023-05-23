@@ -1,10 +1,9 @@
+var color = ["RED","TAN","BLACK","WHITE"];
+var size = ["XS", "S", "M", "L", "XL", "XXL", "XXXL"];
 
-
-
-
+// function that connected to drop down 
 var dropdown = document.getElementById("size");
 function shirts() {
-  var size = ["XS", "S", "M", "L", "XL", "XXL", "XXXL"];
   var option = document.createElement("option");
   option.innerHTML = (size[0]);
   var dropbox = document.getElementById("size-select");
@@ -16,10 +15,9 @@ function shirts() {
   }
 }
 shirts();
-
+// function that connected to drop down 
 var dropdown = document.getElementById("color");
 function colors() {
-  var color = ["RED","TAN","BLACK","WHITE"];
   var option = document.createElement("option");
   option.innerHTML = (color[0]);
   var dropbox = document.getElementById("color-select");
@@ -30,21 +28,5 @@ function colors() {
     dropbox.appendChild(option);
   }
 }
-
-
-let cartItems = [];
-let cartTotal = 0;
-
-function addItem(){
-const selectElement = document.getElementById("color-select");
-const selectedProductId = selectElement.value;
-
-};
-
-function updateCart(){
-  const cartItemsElement = document.getElementById("colors");
-  const cartTotalElement = document.getElementById("cart-total");
-
-  cartItemsElement.innerHTML = "";
-
-}
+colors[0] = 10;
+var cart = [];
